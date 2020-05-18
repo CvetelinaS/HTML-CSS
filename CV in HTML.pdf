@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)file:///C:/Users/Tsveti/Desktop/%C5%BDivotopis_html/zivotopis.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="file:///C:/Users/Tsveti/Desktop/%C5%BDivotopis_html/style.css">
+        <link href="./CV in HTML_files/css" rel="stylesheet">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CV in HTML</title>
+</head>
+<body>
+
+    <section class="top">
+        <h1>Cvetelina Subova</h1>  
+            <p class="second">Linguist &amp; IT enthusiast</p>
+
+        <div class="photo">
+            <img class="image" src="file:///C:/Users/Tsveti/Desktop/%C5%BDivotopis_html/my_photo.png" alt="Personal photo">
+        </div>
+    </section>
+
+    <section class="abstract">
+        <div class="content-first">
+            <span class="content">experience</span>
+                <p>Translator</p>
+                    <p class="title">Freelance Translator</p>
+                        <ul>
+                            <li>2010 - Ongoing</li>
+                            <li>Translation and reviews for Formula F Ltd. and TIXIK.com s.r.o.</li>
+                            <li>Translation and reviews for Prfums.cz (Notino.cz).</li>
+                        </ul>
+                        <div class="outline"></div>
+                <p>Lecturer</p>
+                    <p class="title">Masaryk University</p>
+                        <ul>
+                            <li>2011 - 2017</li>
+                            <li>Taught students in General linguistics, Bulgarian language and Bulgarian cinematogrphy.</li>
+                        </ul>
+                        <div class="outline"></div>
+                <p>Customer Support Representative</p>
+                    <p class="title">Lufthansa GTS</p>
+                        <ul>
+                            <li>2009 - 2010</li>
+                            <li>Process customers' requests, issue and modify flight tickets.</li>
+                        </ul>
+                        <div class="outline"></div>         
+            </div>
+            
+        <div class="content-second">
+            <span class="content">education</span>
+                <p>PhD in Slavic languages and Paleoslavistic</p>
+                    <p class="title">Masaryk University</p>
+                        <ul>
+                            <li>2010 - 2014</li>
+                        </ul>
+                        <div class="outline"></div>
+            <span class="content">skills</span>
+                <div>
+                <span class="cell-0">Python</span>
+                <span class="cell-1">JavaScript</span>
+                <span class="cell-2">HTML</span>
+                <span class="cell-3">CSS</span>
+                <span class="cell-4">Git</span>
+                </div>
+                        <div class="outline"></div> 
+            <span class="content">hobbies</span>
+                <div>
+                <span class="cell-5">reading</span>
+                <span class="cell-6">jogging</span>
+                <span class="cell-7">programming</span>
+                </div>
+                        <div class="outline"></div>
+            <span class="content">languages</span>
+                <div>
+                    <span class="cell-0">Bulgarian</span>
+                    <span class="cell-1">Czech</span>
+                    <span class="cell-2">English</span>
+                </div>         
+            
+        </div> 
+    </section>
+
+
+</body></html>

@@ -1,0 +1,163 @@
+*, ::after, ::before { 
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 200;
+    line-height: 1.5;
+    text-align: justify;
+    color:#282425;
+    background-color: whitesmoke;
+    margin: auto;
+}
+
+.header{
+    margin-bottom: 20px;
+	text-align: center;
+}
+
+p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.title {
+    color:#4682B4;
+    font-size: 16px;
+}
+
+h2 {
+    color:#008B8B;
+}
+
+.image-container img {
+    border-radius:50%;
+    max-width: 100%;
+    height: auto;
+} 
+
+i {
+    color:#4682B4;
+    margin-left: 5px;
+    margin-right: 3px;
+    flex: 0 1 auto;
+    display: inline-block;
+}
+
+.phone{
+    color:#282425;
+    text-decoration: none;
+}
+
+ul {
+    color: #384347;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.6;
+    /* Zero the initial settings of <ul>, which it has from the browser.*/
+    /*margin: 0;
+    padding: 0;*/
+    /* switching off the bullets */
+    list-style: none;
+}
+
+.content-field::before{
+    content: " ";
+    width: 100%;
+    border-bottom: 1px dashed  #ccc;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    display: block;
+}
+
+.content-field{
+    border-bottom: 3px solid #a9a9a9;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.cell-0, .cell-1, .cell-2, .cell-3, .cell-4{
+    border-bottom: 1px solid #a9a9a9;
+    padding: 5px 8px;
+    min-width: 20px;
+    margin: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.cell-5, .cell-6, .cell-7{
+    min-width: 20px;
+    margin-top: 15px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+@media(min-width: 540px){
+
+    .wrapper{
+        padding: 100px;
+    }
+
+    .content-first {
+        float: left;
+        margin-right: 10%;
+    }
+
+    ul{
+        padding: 0;
+    }
+
+    #skills, #hobbies, #languages{
+        padding:20px;
+    }
+
+    .content-field::before{
+        display: none;
+    }
+
+    .cell-5, .cell-6, .cell-7{
+        display: inline-block;
+    }
+}
+
+@media(min-width: 960px){
+
+    .header{
+        flex: 0 0 30%;
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: left;
+        margin-bottom: 20px;
+        border-bottom: 1px dashed  #ccc;
+    }
+
+    .image-container{
+        flex: 0 0 160px;
+        margin-right: 20px;
+        display: block;
+        text-align: left;
+    }
+
+    .image-container img{
+        width: 100%;
+    }
+
+    .header-title{
+        flex: 1 1 auto;
+        display: block;
+    }
+
+    h1, h2{
+        display: block;
+    }
+
+    .icons{
+        display: block;
+        text-align: left;
+    }
+
+}
